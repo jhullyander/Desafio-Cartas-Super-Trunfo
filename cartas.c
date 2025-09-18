@@ -3,7 +3,6 @@
 #define NUM_CARTAS 10
 #define NUM_ATRIBUTOS 3
 
-// Define as cartas e seus atributos
 int cartas_jogador[NUM_CARTAS / 2][NUM_ATRIBUTOS] = {
     {90, 85, 95},  // Dragao
     {75, 80, 90},  // Grifo
@@ -20,7 +19,6 @@ int cartas_cpu[NUM_CARTAS / 2][NUM_ATRIBUTOS] = {
     {87, 84, 93}   // Kraken
 };
 
-// Nomes das cartas (apenas para exibição)
 char nomes_jogador[NUM_CARTAS / 2][50] = {
     "Dragao",
     "Grifo",
